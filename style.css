@@ -1,6 +1,7 @@
 /*Mobile Home First Responsive Design 666*/
+@font-face {font-family: 'Venus'; src: url('v.ttf');}
 body {
-font-family: "Venus", sans-serif;
+font-family: 'Venus', sans-serif;
 font-size: 20px;
 letter-spacing: 0.015em;
 line-height: 25px;
