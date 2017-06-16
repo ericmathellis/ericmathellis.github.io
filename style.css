@@ -7,11 +7,14 @@ letter-spacing: 0.015em;
 line-height: 25px;
 word-spacing: 0px;
 color: black;
-background: gray;}
+background: gray;
+
+margin-left: 0;
+padding: 0;}
 
 .container {
 margin: 1em;
-width: 100%;}
+width: auto;}
 
 /*Desktop*/
 @media (min-width: 415px) {
