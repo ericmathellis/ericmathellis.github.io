@@ -1,4 +1,4 @@
-/*Mobile Home First Responsive Design 666*/
+/* 666 Hail Satan */
 @font-face {font-family: 'Venus'; src: url('v.ttf');}
 body {
 font-family: 'Venus', sans-serif;
@@ -9,11 +9,17 @@ word-spacing: 0px;
 color: black;
 background: gray;}
 
+.container {
+margin: 1em;
+width: 100%;}
+
 /*Desktop*/
 @media (min-width: 415px) {
   body {
   font-size: 40px;
   line-height: 44px;}
+
+  .container {width: 90%;}
 }
 
 p {
@@ -33,10 +39,6 @@ ul {
 marquee {
   padding: 0;
   margin: .75em 0 0 0 ;}
-
-.container {
-margin: 1em;
-width: 90%;}
 
 .footer {
   margin: 1em 0 0 0;
