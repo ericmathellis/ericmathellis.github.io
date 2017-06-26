@@ -45,10 +45,24 @@
 <br />
 <br />
   Serious Self Portrait:<br />
-  <img src="img/eric.jpg"/>
+  <img src="img/ee1.jpg" id="me1" onclick="shownextpic1()"/>
   <div class="footer">
   <marquee>Thank you for visiting my website. Don’t forget to sign my guest book.</marquee>
   </div>
 </div>
+
+<!--Javascript Time-->
+
+<script type="text/javascript">
+// Logos
+var counter1=0;
+var me1 = new Array();
+me1[0] = "img/ee2.jpg";
+me1[1] = "img/ee1.jpg";
+
+function shownextpic1()
+{document.getElementById("me1").src = me1[counter1++];
+if(counter1==2) counter1=0;}
+</script>
 </body>
 </html>
