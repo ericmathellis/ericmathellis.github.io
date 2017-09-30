@@ -11,7 +11,7 @@ html, body {
 	color: black;}
 
 img {
-  margin: .0 0 .5em 0;
+  margin: 0 0 .5em 0;
   max-width: 100% !important;
   width: 100%; }
 
@@ -63,6 +63,10 @@ ul.top li:hover {
 ul.bottom li:hover {
   list-style-type: disc;}
 
+@media (max-width: 800px) {
+  .link {
+    display: none;}
+  }
 
 
 /* G R I D D D ******************************************/
@@ -71,7 +75,7 @@ ul.bottom li:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 8vh;
-    line-height: 3;
+    line-height: 8vh;
     white-space: nowrap;
     font-size: 2em;}
 
@@ -130,25 +134,22 @@ main {
     flex-direction: column;}
 
   .left {
-    padding: 0.5em 2em 4em 2em;}
+    padding: .5em 2em .5em 2em;}
 
   .right {
     border-top: 2px solid black;
     border-left: 0;
-    padding: 0.5em 2em 4em 2em;}
-  .bottom {
-    background: #009600;
-  }
+    padding: .5em 0 .5em 0;
+    background: black;}
+
+  .top { background: #0b5af9;}
+  .bottom { background: #009600;}
+
+  .right p {display: none;}
 }
 
 
-.project {
-  margin-bottom: 4em;
-}
-
-.graphic {
-  cursor: url('bart.gif'), default;
-}
+.project { margin-bottom: 4em;}
 
 
 /* ETC ******************************************/
