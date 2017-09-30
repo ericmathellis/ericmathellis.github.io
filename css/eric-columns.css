@@ -1,0 +1,156 @@
+/* B A S I C S ******************************************/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;}
+
+@font-face {font-family: 'Swiss'; src: url('721.ttf');}
+
+html, body {
+	font-size: 10px;
+	font-family: 'Swiss', 'Helvetica Neue', sans-serif;
+  height: 100%;
+  line-height: 1.2;
+	color: black;}
+
+img {
+  margin: .0 0 .5em 0;
+  max-width: 100% !important;
+  width: 100%; }
+
+
+/* Typography ******************************************/
+p, ul, li, h1, h2, h3, h4 {
+	font-weight: 400;
+  margin: 0;}
+
+h1 {
+	font-size: 3.2em;
+	letter-spacing: .02em;}
+
+h2 {
+  font-size: 2.6em;
+  letter-spacing: .02em;}
+
+p {
+	font-size: 2em;
+	display: inline;
+	letter-spacing: 0.012em;}
+
+.left p::after {
+  content: "¶ ";}
+
+ul {
+  font-size: 2em;
+  letter-spacing: 0.012em;
+  padding-left: 20px;}
+
+ul.bottom, .top {
+  padding: 0;
+  list-style-type: none;}
+
+ul.top li a {
+  text-decoration: none;
+  color: black;}
+
+ul.bottom li a {
+  text-decoration: none;
+  color: black;}
+
+li.active {
+  list-style-type: disc;}
+
+ul.top li:hover {
+  list-style-type: disc;}
+
+ul.bottom li:hover {
+  list-style-type: disc;}
+
+
+
+/* G R I D D D ******************************************/
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 8vh;
+    line-height: 3;
+    white-space: nowrap;
+    font-size: 2em;}
+
+.top {
+  background: #f0eeee;
+  border-bottom: 2px solid black;}
+
+.wrap {
+  height: 84vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;}
+
+main {
+  -webkit-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;}
+
+.column { overflow-y: scroll;}
+
+.left {
+  -webkit-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #fff;
+  padding: 1em 2em 1em 2em;}
+
+.right {
+  -webkit-box-flex: 2;
+  -o-box-flex: 2;
+  box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  background: #f0eeee;
+  border-left: 2px solid black;
+  padding: 1em 2em 1em 2em;}
+
+.bottom {
+  background: #0b5af9;
+  border-top: 2px solid black;}
+
+@media (max-width: 800px) {
+  main {
+    -webkit-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;}
+
+  .left {
+    padding: 0.5em 2em 4em 2em;}
+
+  .right {
+    border-top: 2px solid black;
+    border-left: 0;
+    padding: 0.5em 2em 4em 2em;}
+  .bottom {
+    background: #009600;
+  }
+}
+
+
+.project {
+  margin-bottom: 4em;
+}
+
+
+
+
+/* ETC ******************************************/
+#me1, #me2, #me3, #me4, #me5, #me6, #me7, #me8, #me9, #me10, #me11{
+cursor: pointer; }
