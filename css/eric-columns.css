@@ -23,7 +23,12 @@ p, ul, li, h1, h2, h3, h4 {
 
 h1 {
 	font-size: 3.2em;
-	letter-spacing: .02em;}
+  line-height: 1;
+	letter-spacing: .02em;
+  margin-top: 1em;}
+
+h1:first-child {
+  margin-top:0;}
 
 h2 {
   font-size: 2.6em;
@@ -110,7 +115,7 @@ main {
   -ms-flex: 1;
   flex: 1;
   background: #fff;
-  padding: 1em 2em 1em 2em;}
+  padding: .4em 2em 1em 2em;}
 
 .right {
   -webkit-box-flex: 2;
@@ -120,7 +125,7 @@ main {
   flex: 2;
   background: #f0eeee;
   border-left: 2px solid black;
-  padding: 1em 2em 1em 2em;}
+  padding: .4em 2em 1em 2em;}
 
 .bottom {
   background: #0b5af9;
