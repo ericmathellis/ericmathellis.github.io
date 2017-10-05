@@ -6,18 +6,18 @@
 {block:Description}
 <meta name="description" content="{MetaDescription}" />
 {/block:Description}
-<!--Disassemble 3.0 Theme for Tumblr by Georgia Harris
-www.smpldesign.co.uk-->
+<!--Disassemble 3.0 Theme for Tumblr by Georgia Harris www.smpldesign.co.uk-->
 
 <style type="text/css">
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;}
-
+@font-face {font-family: fpn; font-weight: 400; src: url(https://ericmathellis.github.io/font/fpn.otf);}
 html, body {
-	font-size: 10px;
-	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 12px;
+	font-family: 'fpn', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   height: 100%;
+  letter-spacing: 0;
   line-height: 1.2;
 	color: black;}
 
@@ -80,26 +80,30 @@ background:#000;}
 display:none !important;}
 
 /* Typography ******************************************/
-p, ul, li, h1, h2, h3, h4 {
-	font-weight: 400;
-  margin: 0;}
+p, ul, li, h1, h2, h3, h4 {margin:0; font-weight: 400;}
 
 h1 {
 	font-size: 3.2em;
-	letter-spacing: .02em;}
+  letter-spacing: -.01em;
+  line-height: 1;
+  margin-top: 1em;}
+
+h1:first-child {
+  margin-top:0;}
 
 h2 {
   font-size: 2.6em;
-  letter-spacing: .02em;}
+  line-height: 1;}
 
 p {
 	font-size: 2em;
-	display: inline;
-	letter-spacing: 0.012em;}
+	display: inline;}
+
+.left p::after {
+  content: "¶ ";}
 
 ul {
   font-size: 2em;
-  letter-spacing: 0.012em;
   padding-left: 20px;}
 
 ul.bottom, .top {
@@ -123,6 +127,11 @@ ul.top li:hover {
 ul.bottom li:hover {
   list-style-type: disc;}
 
+@media (max-width: 800px) {
+  .link {
+    display: none;}
+  }
+
 
 
 /* G R I D D D ******************************************/
@@ -131,7 +140,7 @@ ul.bottom li:hover {
   flex-flow: row wrap;
   justify-content: space-around;
   height: 8vh;
-  line-height: 8vh;
+  line-height: 9vh;
   white-space: nowrap;
   font-size: 2em;}
 
