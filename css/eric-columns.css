@@ -1,7 +1,5 @@
 /* B A S I C S ******************************************/
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;}
+* {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 @font-face {font-family: fpn; font-weight: 400; src: url(../font/fpn.otf);}
 
 html, body {
@@ -16,8 +14,6 @@ img {
   margin: 0 0 .5em 0;
   max-width: 100% !important;
   width: 100%; }
-
-
 
 /* Typography ******************************************/
 p, ul, li, h1, h2, h3, h4 {margin:0; font-weight: 400;}
