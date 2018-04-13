@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="39px" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>cursor</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="17" width="50" height="5"></rect>
+        <path d="M43,8.02081528 L45.0208153,8.02081528 L45.0208153,33.0208153 L40.0208153,33.0208153 L40.0208153,11 L18,11 L18,6 L43,6 L43,8.02081528 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-264.000000, -131.000000)">
+            <g id="cursor" transform="translate(264.000000, 131.000000)">
+                <g id="Rectangle-3">
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FFFFFF" stroke-width="1" x="0.5" y="17.5" width="49" height="4"></rect>
+                </g>
+                <g id="Rectangle-3-Copy" transform="translate(31.510408, 19.510408) rotate(45.000000) translate(-31.510408, -19.510408) ">
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#FFFFFF" stroke-width="1" d="M42.5,6.5 L18.5,6.5 L18.5,10.5 L40.5208153,10.5 L40.5208153,32.5208153 L44.5208153,32.5208153 L44.5208153,8.52081528 L42.5,8.52081528 L42.5,6.5 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
