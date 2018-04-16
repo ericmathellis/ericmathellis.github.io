@@ -3,7 +3,8 @@
 * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
  @font-face {font-family: Cool; font-weight: 400; src: url(s.otf);}
 
-.cover {
+@media (min-width: 550px) {
+  .cover {
   height: 40vh;
   position: relative;
   z-index: -99;
@@ -13,6 +14,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;}
+}
 
 .about { background-color: #ececec; padding-top: 10px;}
 
