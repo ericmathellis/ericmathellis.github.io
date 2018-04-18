@@ -7,19 +7,6 @@
        url('suisseintl-book-webfont.woff') format('woff'),
        url('suisseintl-book-webfont.ttf')  format('truetype')}
 
-@media (min-width: 550px) {
-  .cover {
-  height: 40vh;
-  position: relative;
-  z-index: -99;
-  background-color: #000;
-  background: url(../img/shot08.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
-}
-
 .about { background-color: #ececec; padding-top: 10px;}
 
 .container {
