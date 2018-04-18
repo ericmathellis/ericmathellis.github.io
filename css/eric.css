@@ -1,7 +1,11 @@
-/*Responsive grid based on getskeleton.com - CSS and HTML by Eric Ellis. */
+/* Responsive grid based on getskeleton.com - CSS and HTML by Eric Ellis. */
 
 * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
- @font-face {font-family: Cool; font-weight: 400; src: url(s.otf);}
+@font-face {
+  font-family: 'Suisse BP Intl Book';
+  src: url('suisseintl-book-webfont.woff2') format('woff2'),
+       url('suisseintl-book-webfont.woff') format('woff'),
+       url('suisseintl-book-webfont.ttf')  format('truetype')}
 
 @media (min-width: 550px) {
   .cover {
@@ -81,9 +85,9 @@ body {
   font-size: 2.5em;
   line-height: 1.2;
   letter-spacing: 0.01em;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left;
-  font-family: 'Cool', 'Helvetica Neue', sans-serif;
+  font-family: 'Suisse BP Intl Book', 'Helvetica Neue', sans-serif;
   color: #000; }
 
 img {
