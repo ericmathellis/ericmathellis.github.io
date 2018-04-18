@@ -71,8 +71,8 @@ html { font-size: 62.5%; }
 body {
   font-size: 2.5em;
   line-height: 1.2;
-  letter-spacing: 0.01em;
-  font-weight: 300;
+  letter-spacing: -0.005em;
+  font-weight: 400;
   text-align: left;
   font-family: 'Suisse BP Intl Book', 'Helvetica Neue', sans-serif;
   color: #000; }
@@ -94,7 +94,7 @@ img {
 /* Desktop */
 @media (min-width: 550px) {
   body  {font-size: 3.5rem;}
-  .work, .credit {font-size: 2.4rem; letter-spacing: .015em;}
+  .work, .credit {font-size: 2.4rem; letter-spacing: 0.00em;}
 }
 
 .center {margin: 0 auto; text-align: center !important;}
