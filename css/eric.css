@@ -150,4 +150,5 @@ ul {
 
 .row {margin-bottom: 3em;}
 .bottom3 { margin-bottom: 3em;}
+.profile-row {margin-bottom: .25em;}
 @media (min-width: 550px) {.bottom3 { margin-bottom: 0;}}
