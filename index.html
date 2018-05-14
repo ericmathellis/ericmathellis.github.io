@@ -270,7 +270,7 @@
     <!--Row 2-->
     <div class="row">
       <div class="six offset-by-three column profile">
-        <img src="img/eewalk.jpg"/>
+        <img src="img/eewalk.jpg" id="me13" onclick="shownextpic13()"/>
         <span class="credit">Photo by <a href="https://www.instagram.com/kirkrobert/" target="_blank">Kirk Chambers</a></span>
         <br><br>
         Eric Ellis is a multidisciplinary designer based in Charleston South Carolina and a senior designer at Fuzzco.
@@ -477,6 +477,18 @@ me12[5] = "img/in1.png";
 function shownextpic12()
 {document.getElementById("me12").src = me12[counter12++];
 if(counter12==6) counter12=0;}
+</script>
+
+<script>
+// eric
+var counter13=0;
+var me13 = new Array();
+me13[0] = "img/ee-man1.jpg";
+me13[1] = "img/ee-man3.jpg";
+me13[2] = "img/eewalk.jpg";
+function shownextpic13()
+{document.getElementById("me13").src = me13[counter13++];
+if(counter13==3) counter13=0;}
 </script>
 
 <script>
