@@ -2,10 +2,10 @@
 
 * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
 @font-face {
-  font-family: 'Suisse BP Intl Book';
-  src: url('suisseintl-book-webfont.woff2') format('woff2'),
-       url('suisseintl-book-webfont.woff') format('woff'),
-       url('suisseintl-book-webfont.ttf')  format('truetype')}
+  font-family: 'Suisse BP Intl Regular';
+  src: url('suisseintl-regular-webfont.woff2') format('woff2'),
+       url('suisseintl-regular-webfont.woff') format('woff'),
+       url('suisseintl-regular-webfont.ttf')  format('truetype')}
 
 .about { background-color: #ececec; padding-top: 10px;}
 
@@ -71,7 +71,7 @@ html { font-size: 62.5%; }
 body {
   font-size: 2.5em;
   line-height: 1.2;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.001em;
   font-weight: 400;
   text-align: left;
   font-family: 'Suisse BP Intl Book', 'Helvetica Neue', sans-serif;
