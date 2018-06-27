@@ -1,6 +1,8 @@
 /* Responsive grid based on getskeleton.com - CSS and HTML by Eric Ellis. */
 
-* {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+* {
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  
 @font-face {
   font-family: 'Suisse BP Intl Regular';
   src: url('suisseintl-regular-webfont.woff2') format('woff2'),
