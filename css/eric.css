@@ -2,7 +2,7 @@
 
 * {
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-  
+
 @font-face {
   font-family: 'Suisse BP Intl Regular';
   src: url('suisseintl-regular-webfont.woff2') format('woff2'),
@@ -21,14 +21,13 @@
 
 .top {
   margin: 0;
-  background-color: gray;
+  background-image: url('../img/cover.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
   max-width: 100vw;
   padding: 0;
-  height: 50vh;
-  text-align: center;
-  font-family: "Web NSW01";
-  line-height: 1;
-  font-size: 80vw;
+  height: 400px;
   overflow: hidden;}
 
 .work {
