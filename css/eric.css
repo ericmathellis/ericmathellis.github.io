@@ -9,7 +9,7 @@
        url('suisseintl-regular-webfont.woff') format('woff'),
        url('suisseintl-regular-webfont.ttf')  format('truetype')}
 
-.about { background-color: #ececec; padding-top: 10px;}
+.about { background-color: #6F7A63; padding-top: 10px;}
 
 .container {
   position: relative;
