@@ -110,6 +110,8 @@ img {
 
 .project { cursor: url(../img/cursor.png), e-resize; }
 
+.garf { mix-blend-mode: multiply; }
+
 /* Desktop */
 @media (min-width: 550px) {
   body  {font-size: 3.5rem;}
