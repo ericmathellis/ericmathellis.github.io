@@ -100,6 +100,7 @@ img {
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: scroll;}
+.multi { mix-blend-mode: multiply; }
 
 .opennew {
   opacity: .4;
@@ -109,8 +110,6 @@ img {
   margin-bottom: 0px;}
 
 .project { cursor: url(../img/cursor.png), e-resize; }
-
-.garf { mix-blend-mode: multiply; }
 
 /* Desktop */
 @media (min-width: 550px) {
