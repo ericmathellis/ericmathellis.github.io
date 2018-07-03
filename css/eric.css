@@ -1,4 +1,4 @@
-/* Responsive grid based on getskeleton.com - CSS and HTML by Eric Ellis. */
+/* Responsive grid based on getskeleton.com - CSS and HTML styled by Eric Ellis. */
 
 * {
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -100,7 +100,6 @@ img {
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: scroll;}
-.multi { mix-blend-mode: multiply; }
 
 .opennew {
   opacity: .4;
@@ -110,6 +109,7 @@ img {
   margin-bottom: 0px;}
 
 .project { cursor: url(../img/cursor.png), e-resize; }
+.multi { mix-blend-mode: multiply; }
 
 /* Desktop */
 @media (min-width: 550px) {
