@@ -93,11 +93,6 @@ body {
   font-family: 'Suisse BP Intl Book', 'Helvetica Neue', sans-serif;
   color: #000; }
 
-small {
-  font-size: 1em;
-  line-height: .9;
-}
-
 img {
   margin: 0 0 .1em 0;
   max-width: 100% !important;
