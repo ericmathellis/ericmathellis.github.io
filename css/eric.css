@@ -19,16 +19,15 @@
   padding: 0;
   box-sizing: border-box; }
 
-.top {
+/*.top {
   margin: 0;
-  background-image: url('../img/top1.png');
+  background-image: url('../img/top3.svg');
   background-repeat:no-repeat;
-  background-size:cover;
   background-position: center;
   max-width: 100vw;
   padding: 0;
   height: 250px;
-  overflow: hidden;}
+  overflow: hidden;}*/
 
 .work {
   background-color: white;}
