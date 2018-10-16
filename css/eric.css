@@ -4,10 +4,10 @@
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 @font-face {
-  font-family: 'Suisse BP Intl Regular';
+  font-family: 'Classic';
   src: url('suisseintl-regular-webfont.woff2') format('woff2'),
        url('suisseintl-regular-webfont.woff') format('woff'),
-       url('suisseintl-regular-webfont.ttf')  format('truetype')}
+       url('suisseintl-regular-webfont.ttf')  format('truetype');}
 
 .about { background-color: #008181; padding-top: 10px;}
 
@@ -109,6 +109,9 @@ img {
 
 .project { cursor: url(../img/cursor.png), e-resize; }
 .multi { mix-blend-mode: multiply; }
+.selfi { mix-blend-mode: multiply;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%); }
 
 /* Type - Desktop */
 @media (min-width: 550px) {
