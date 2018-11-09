@@ -1,4 +1,6 @@
 /* Responsive grid based on getskeleton.com - CSS and HTML styled by Eric Ellis. */
+.hideme {opacity:0;}
+
 * {
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
