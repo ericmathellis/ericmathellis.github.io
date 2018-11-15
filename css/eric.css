@@ -1,6 +1,5 @@
 /* Responsive grid based on getskeleton.com - CSS and HTML styled by Eric Ellis. */
-* {
-  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+* {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 @font-face {
   font-family: "suisse";
@@ -66,6 +65,7 @@
   .one-third.column              { width: 30.6666666667%; }
   .two-third.column              { width: 65.3333333333%; }
   .half.column                   { width: 48%; }
+  .offset-by-one.column          { margin-left: 4.66666666667%; }
   .offset-by-two.column          { margin-left: 17.3333333333%; }
   .offset-by-three.column        { margin-left: 26%; }
 }
@@ -105,6 +105,7 @@ img {
 @media (min-width: 550px) {
   body  {font-size: 3.5rem;}
   .work, .credit {font-size: 2.4rem; letter-spacing: 0.00em;}
+  .bigboy {font-size: 3.5rem;}
 }
 
 .center {margin: 0 auto; text-align: center !important;}
@@ -159,6 +160,9 @@ ul {
   clear: both; }
 
 .row {margin-bottom: 3em;}
+
+.top5 { margin-top: 5em;}
 .bottom3 { margin-bottom: 3em;}
+.bottom10 { margin-bottom: 10em;}
 .profile-row {margin-bottom: .25em;}
 @media (min-width: 550px) {.bottom3 { margin-bottom: 0;}}

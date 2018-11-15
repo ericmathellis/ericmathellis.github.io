@@ -6,7 +6,7 @@
 <meta name="author" content="Eric Ellis">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Eric Ellis is a graphic designer in Charleston, SC">
-<meta name="keywords" content="graphic design, typography, Charleston, signage, packaging, print, websites, branding, logo, logos, brands, type, fonts, font, brand, hot dogs, steve jobs, muppets, apple computers, macintosh, obama, mercedes benz, harley, chopper, arnold, who let the dogs out, factors, synergy, blink 182">
+<meta name="keywords" content="graphic design, typography, Charleston, signage, packaging, print, websites, branding, logo, logos, brands, type, fonts, font, brand, hot dogs, steve jobs, muppets, apple computers, macintosh, obama, mercedes benz, harley, chopper, arnold, who let the dogs out, factors, synergy, blink 182, tofu cheese wiz, burgertime">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/eric.css">
 <link rel="icon" type="image/png" href="img/favicon.png">
@@ -17,7 +17,17 @@
     <li class="job change">Graphic Design</li>
     <li class="contact"><a href="#profile">Profile</a></li>
  </ul>
+
+
 <div class="container work">
+
+<div class="row">
+  <div class="twelve column bigboy">
+      <!--<span id="myBio">-->
+        A witty, all-inclusive description of myself that knocks your everloving socks off, wins all the awards and makes young people jealous.
+      <!--</span>-->
+  </div>
+</div>
 
 
 <!--Row 1 -->
@@ -334,14 +344,19 @@ var phraseArr = [
   "Pet Sitter",
   "Video Jockey",
   "Sous Chef",
+  "Fart Knocker",
   "Horse Wrangler",
   "Bicycle Mechanic",
   "Farmer",
   "Janitor",
-  "Euro Car Mechanic",
+  "Fart",
   "House Painter",
   "Dish Washer",
   "Fry Cook",
+  "Bro",
+  "Douchbag",
+  "Ass Hat",
+  "Dick Head",
   "Disc Jockey"]
 phrase.on({
   mouseenter: function () {
@@ -531,7 +546,7 @@ if(counter14==4) counter14=0;}
 </script>
 
 <script>
-// sick javascripts by my pal Anthony Bruno
+// sick javascript by my pal Anthony Bruno
 var myQuotes = new Array();
 
 myQuotes[0] = "“Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes.”";
@@ -551,5 +566,19 @@ myQuotes[6] = "“The difference between a man and a boy is, a boy wants to grow
 var myRandom = Math.floor(Math.random()*myQuotes.length);
 $('#myQuote').html(myQuotes[myRandom]);
 </script>
+
+<!--<script>
+// sick javascript by my pal Anthony Bruno
+var myBios = new Array();
+
+myBios[0] = "A witty, all-inclusive description of myself that knocks your everloving socks off, wins all the awards and makes young people jealous.";
+
+myBios[1] = "A smart bio with believeable words, such as minimal or logical. Clever phrases that sound intelligent.";
+
+myBios[2] = "Focused on creating smart, provocative, and conceptual work for editorial illustrations, covers, brands and various print and online visual communications. Through constant exploration of typography, imagery and illustration, his work transcends style.";
+
+var myRandom = Math.floor(Math.random()*myBios.length);
+$('#myBio').html(myBios[myRandom]);
+</script>-->
 </body>
 </html>
