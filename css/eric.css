@@ -1,6 +1,15 @@
 /* Responsive grid based on getskeleton.com - CSS and HTML styled by Eric Ellis. */
 * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+.cover {
+  /*background: url(../img/cover.jpg) no-repeat center center fixed;*/
+  background-color: red;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30vh; }
+
 @font-face {
   font-family: "suisse";
   src: url("suisse.woff2") format("woff2"),
