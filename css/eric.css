@@ -1,6 +1,7 @@
 /* Responsive grid based on getskeleton.com - CSS and HTML styled by Eric Ellis. */
 * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+
 .cover {
   /*background: url(../img/cover.jpg) no-repeat center center fixed;*/
   background-color: red;
