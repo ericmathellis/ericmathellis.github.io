@@ -11,48 +11,69 @@ img {
   padding: 0 ;
   box-sizing: border-box;}
 
-
+/*one*/
 @media only screen and (min-width: 10px) and (max-width: 375px){
-.container { width: 98%;}
-div.foldtwo, .foldthree, .foldfour, .foldfive, .foldsix, .foldseven {display: none;}
-
+.container { width: 99%;}
+div.foldtwo, .foldthree, .foldfour, .foldfive, .foldsix, .foldseven, .foldeight, .foldnine, .foldten {display: none;}
 }
 
+/*two*/
 @media only screen and (min-width: 376px) and (max-width: 450px){
-.container { width: 97%;}
-div.foldone, .foldthree, .foldfour, .foldfive, .foldsix, .foldseven {display: none;}
-
+.container { width: 99%;}
+div.foldone, .foldthree, .foldfour, .foldfive, .foldsix, .foldseven, .foldeight, .foldnine, .foldten {display: none;}
 }
 
+/*three*/
 @media only screen and (min-width: 451px) and (max-width: 550px){
-.container { width: 90%;}
-div.foldtwo, .foldone, .foldfour, .foldfive, .foldsix, .foldseven {display: none;}
-
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldfour, .foldfive, .foldsix, .foldseven, .foldeight, .foldnine, .foldten {display: none;}
 }
 
+/*four*/
 @media only screen and (min-width: 551px) and (max-width: 650px){
-.container { width: 90%;}
-div.foldtwo, .foldone, .foldthree, .foldfive, .foldsix, .foldseven {display: none;}
-
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfive, .foldsix, .foldseven, .foldeight, .foldnine, .foldten {display: none;}
 }
 
+/*five*/
 @media only screen and (min-width: 651px) and (max-width: 750px){
-.container { width: 90%;}
-div.foldtwo, .foldone, .foldthree, .foldfour, .foldsix, .foldseven {display: none;}
-
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfour, .foldsix, .foldseven, .foldeight, .foldnine, .foldten {display: none;}
 }
 
+/*six*/
 @media only screen and (min-width: 751px) and (max-width: 850px){
-.container { width: 90%;}
-div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldseven {display: none;}
-
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldseven, .foldeight, .foldnine, .foldten {display: none;}
 }
 
-@media only screen and (min-width: 851px) and (max-width: 9950px){
-.container { width: 90%;}
-div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldsix {display: none;}
-
+/*seven*/
+@media only screen and (min-width: 851px) and (max-width: 950px){
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldsix, .foldeight, .foldnine, .foldten {display: none;}
 }
+
+/*eight*/
+@media only screen and (min-width: 951px) and (max-width: 1050px){
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldsix, .foldseven, .foldnine, .foldten {display: none;}
+}
+
+/*nine*/
+@media only screen and (min-width: 1051px) and (max-width: 1150px){
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldsix, .foldeight, .foldseven, .foldten {display: none;}
+}
+
+/*ten*/
+@media only screen and (min-width: 1151px) and (max-width: 9950px){
+.container { width: 99%;}
+div.foldtwo, .foldone, .foldthree, .foldfour, .foldfive, .foldsix, .foldeight, .foldseven, .foldnine {display: none;}
+}
+
+
+
+
 
 html {font-size: 100%; }
 
