@@ -8,7 +8,8 @@ html, body {
   height: 100%;
   letter-spacing: 0;
   line-height: 1.2;
-	color: black;}
+	color: black;
+overflow: hidden;}
 
 img {
   margin: 0 0 .5em 0;
@@ -103,7 +104,8 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: box;
-  display: flex;}
+  display: flex;
+	}
 
 .column { overflow-y: scroll;}
 
