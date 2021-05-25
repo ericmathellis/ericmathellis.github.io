@@ -11,9 +11,12 @@
   float: left;
   box-sizing: border-box; }
 
+.row {margin-bottom:10%;}
+
 
 @media (min-width: 768px) {
   /* Desktop */
+  .row {margin-bottom:0%;}
   .container {
     width: 80%; }
 
@@ -27,8 +30,8 @@
 
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
-
   .one-half.column                { width: 48%; }
+  .full.column                    { width: 100%; }
 
   /* Offsets */
   .offset-by-one-third.column,
@@ -42,10 +45,11 @@
 
 @font-face {
   font-family: "Suisse";
-  src: url(reg.otf);
-}
+  src: url(reg.otf);}
+
 html {
   font-size: 62.5%; }
+
 body {
   font-size: 19px;
   line-height: 27px;
@@ -53,26 +57,34 @@ body {
   font-family: "Suisse", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000; }
 
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
+img {
+  margin: 0 0 .1em 0;
+  max-width: 100% !important;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 42px;}
 
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    margin-left: -50%;
-    margin-bottom: -50%;
+.tooltip {
+  position: relative;
+  display: inline-block;}
 
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin-left: -50%;
+  margin-bottom: -50%;
 
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+/* Position the tooltip */
+  position: absolute;
+  z-index: 1;}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
 /* Typography */
