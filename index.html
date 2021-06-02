@@ -51,11 +51,21 @@
 
     <div class="row" style="margin-bottom:10%; ">
       <div class="two-thirds offset-by-one-third column">
-        <img src="images/startupy.jpg"/>
-        <span class="tag">recent-work_startupy.jpg</span>
+        <span class="tag">recent-work.jpg</span><br><br>
+        <img class="holder" src="images/startupy.jpg" id="me1" onclick="shownextpic1()" />
       </div>
   </div>
 
+  <script>
+  var counter1=0;
+  var me1 = new Array();
+  me1[0] = "images/alma.png";
+  me1[1] = "images/jupiter.png";
+  me1[2] = "images/startupy.jpg";
+  function shownextpic1()
+  {document.getElementById("me1").src = me1[counter1++];
+  if(counter1==3) counter1=0;}
+  </script>
 
 </body>
 </html>

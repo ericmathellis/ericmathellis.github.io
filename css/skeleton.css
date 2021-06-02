@@ -45,7 +45,7 @@
 
 @font-face {
   font-family: "Suisse";
-  src: url(reg.otf);}
+  src: url(suisse-intl-reg.otf);}
 
 html {
   font-size: 62.5%; }
@@ -64,7 +64,8 @@ img {
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: scroll;
-  border-radius: 42px;}
+  border-radius: 42px;
+  cursor: pointer;}
 
 .tooltip {
   position: relative;
