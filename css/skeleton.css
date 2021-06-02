@@ -65,7 +65,7 @@ img {
   overflow-x: hidden;
   overflow-y: scroll;
   border-radius: 42px;
-  cursor: pointer;}
+  cursor: crosshair;}
 
 .tooltip {
   position: relative;
