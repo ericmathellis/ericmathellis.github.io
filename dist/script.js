@@ -5,10 +5,10 @@ var baseUrl = '';
 
 var pano = new Spherical({
 	container: 'body',
-	front: baseUrl + '1.jpeg',
-	back: baseUrl + '2.jpeg',
-	left: baseUrl + '3.jpg',
-	right: baseUrl + '4.jpg',
-	top: baseUrl + '5.jpg',
-	bottom: baseUrl + '6.jpeg'
+	front: baseUrl + '1.png',
+	back: baseUrl + '2.png',
+	left: baseUrl + '3.png',
+	right: baseUrl + '4.png',
+	top: baseUrl + '5.png',
+	bottom: baseUrl + '6.png'
 });
